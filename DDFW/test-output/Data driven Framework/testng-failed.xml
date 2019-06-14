@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data driven Framework]" parallel="none">
+  <test name="Real Testing(failed)" parallel="none">
+    <classes>
+      <class name="TestScript.TC1">
+        <methods>
+          <include name="ornghrmlogin"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestScript.TC1 -->
+    </classes>
+  </test> <!-- Real Testing(failed) -->
+</suite> <!-- Failed suite [Data driven Framework] -->
